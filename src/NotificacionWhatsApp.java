@@ -6,7 +6,7 @@ public class NotificacionWhatsApp extends Notificacion {
 
     @Override
     public void enviarMensaje(String mensaje) {
-        System.out.println("Se envió el mensaje de voz 00:51\"" + mensaje + "\" por WhatsApp" + this.receptorNotificacion);
+        System.out.println("Se envió el mensaje \"" + mensaje + "\" por WhatsApp" + this.receptorNotificacion);
     }
 
 }
