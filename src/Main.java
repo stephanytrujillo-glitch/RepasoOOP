@@ -7,22 +7,22 @@ public class Main {
         cuenta1.consignar(150);
         System.out.printf("El saldo de la cuenta es: " + cuenta1.getSaldo() );
 
-        Notificacion [] notificaciones = new Notificacion[5];
-
+        Notificacion [] notificaciones = new Notificacion[6];
         notificaciones[0] = new NotificacionCorreo("Pepito" );
         notificaciones[1] = new NotificacionSMS("Juanito");
         notificaciones[2] = new NotificacionInstagram("Johan");
         notificaciones[3] = new NotificacionCelular("Stephany");
         notificaciones[4] = new NotificacionWhatsApp("Santiago");
+        notificaciones[5] = new NotificacionFacebook("Perez");
+
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
         notificaciones[1].enviarMensaje("Hola mi broco");
         notificaciones[2].enviarMensaje("Te empezo a seguir Luis");
-
         notificaciones[3].enviarMensaje("254879");
+        notificaciones[4].enviarMensaje("Hoy hay clase?");
+        notificaciones[5].enviarMensaje("Buenas");
 
-
-        notificaciones[3].enviarMensaje("Hoy hay clase?");
 
         }
     }
