@@ -1,6 +1,6 @@
 public class NotificacionSMS extends Notificacion {
 
-    protected NotificacionCorreo(Sttring receptorNotificacion) {
+    protected NotificacionSMS(Sttring receptorNotificacion) {
         super(receptorNotificacion);
     }
 
