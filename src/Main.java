@@ -5,9 +5,9 @@ public class Main {
         CuentaBancaria cuenta1 = new CuentaBancaria("1", 100);
         cuenta1.retirar(100);
         cuenta1.consignar(150);
-        system.out.printf("El saldo de la cuenta es: " + cuenta1.getSaldo() );
+        System.out.printf("El saldo de la cuenta es: " + cuenta1.getSaldo() );
 
-        Notificacion [] notificaciones = new notificacion[2];
+        Notificacion [] notificaciones = new Notificacion[2];
         notificaciones[0] = new NotificacionCorreo("Pepito" );
         notificaciones[1] = new NotificacionSMS("Juanito");
 

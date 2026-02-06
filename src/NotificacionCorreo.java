@@ -1,11 +1,11 @@
 public class NotificacionCorreo extends Notificacion {
 
-    protected NotificacionCorreo(Sttring receptorNotificacion) {
+    protected NotificacionCorreo(String receptorNotificacion) {
         super(receptorNotificacion);
     }
 
     @Override
-    public String enviarMensaje(String mensaje) {
+    public void enviarMensaje(String mensaje) {
         System.out.println("Se envió el mensaje \"" + mensaje + "\" por correo" + this.receptorNotificacion);
     }
 
