@@ -10,10 +10,14 @@ public class Main {
         Notificacion [] notificaciones = new Notificacion[3];
         notificaciones[0] = new NotificacionCorreo("Pepito" );
         notificaciones[1] = new NotificacionSMS("Juanito");
+        notificaciones[2] = new NotificacionFacebook("Perez");
+
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
         notificaciones[1].enviarMensaje("Hola mi broco");
+        notificaciones[1].enviarMensaje("Buenas");
 
-        }
+
+    }
     }
 
